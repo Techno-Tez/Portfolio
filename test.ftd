@@ -1,0 +1,22 @@
+-- import: package/base-layout as layout
+-- import: package/header as navbar
+-- import: package/toast as toast
+
+-- layout.base-layout:
+
+-- navbar.header:
+logo: $assets.files.images.logo.svg
+logoURL: /Portfolio
+header-item-1: Home
+header-item-2: About
+header-item-3: Contact
+header-item-4: Projects
+header-item1-link1: /Portfolio/home
+header-item2-link2: /Portfolio/about
+header-item3-link3: /Portfolio/contact
+header-item4-link4: /Portfolio/projects
+
+-- toast.stack:
+title: I am a Full Stack Developer.
+link: https://github.com/Techno-Tez
+-- end: layout.base-layout
